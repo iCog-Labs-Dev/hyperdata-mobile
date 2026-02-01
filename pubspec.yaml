@@ -1,0 +1,82 @@
+name: leyu_mobile
+description: "A mobile app for dataset contributors of Leyu"
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+2
+
+environment:
+  sdk: ">=3.5.0-188.0.dev <4.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  hive:
+  hive_flutter:
+  get:
+  dio:
+  path_provider:
+  equatable:
+  internet_connection_checker:
+  another_flushbar:
+  loading_animation_widget:
+  flutter_svg:
+  cached_network_image:
+  flutter_secure_storage:
+  jwt_decode:
+  dartz:
+  flutter_otp_text_field:
+  pull_to_refresh_new:
+  image_picker:
+  dotted_border:
+  intl:
+  dropdown_button2: ^2.3.9
+  permission_handler:
+  record:
+  just_audio:
+  wave_blob:
+  flutter_launcher_icons:
+  logger: ^2.0.2
+  video_player:
+  url_launcher: ^6.3.1
+  tutorial_coach_mark: ^1.2.11
+  onesignal_flutter: ^5.2.5
+  flutter_dotenv: ^5.1.0
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.0
+  hive_generator: ^2.0.0
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "icons/logo.png"
+
+flutter:
+  fonts:
+    - family: openSans
+      fonts:
+        - asset: assets/fonts/OpenSans-Regular.ttf
+        - asset: assets/fonts/OpenSans-SemiBold.ttf
+          weight: 500
+        - asset: assets/fonts/OpenSans-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/OpenSans-ExtraBold.ttf
+          weight: 900
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - .env

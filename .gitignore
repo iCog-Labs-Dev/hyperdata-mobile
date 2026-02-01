@@ -1,0 +1,98 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Kiro
+.kiro/
+
+# Environment variables
+.env
+
+# Implementation and technical documentation (not for public repo)
+ADAPTIVE_SCROLL_IMPLEMENTATION.md
+ANDROID_10_COMPATIBILITY_SUMMARY.md
+ANDROID_VERSION_COMPATIBILITY.md
+AUDIO_IMPROVEMENTS_SUMMARY.md
+AUDIO_LIBRARY_MIGRATION_COMPLETE.md
+AUDIO_PLAYER_MIGRATION.md
+AUDIO_RECORDING_FIX.md
+CENTRALIZED_NAVIGATION_REFACTOR.md
+ENHANCED_GLASSMORPHIC_EFFECT.md
+ENV_CONFIGURATION_GUIDE.md
+ENVIRONMENT_SETUP.md
+ENVIRONMENT_VARIABLES_README.md
+FIX_RECORDING_ANDROID.md
+GLASSMORPHIC_NAVIGATION.md
+GLOBAL_AUDIO_MANAGEMENT.md
+IMPLEMENTATION_COMPLETE.md
+INTRODUCTION_PAGE_FIRST_INSTALL_FIX.md
+INTRODUCTION_PAGE_IMPROVEMENTS.md
+NAVIGATION_ONBOARDING_ADDED.md
+NAVIGATION_VALIDATION_FIX.md
+ONBOARDING_DEBUG_GUIDE.md
+ONBOARDING_FINAL_IMPLEMENTATION.md
+ONBOARDING_IMPLEMENTATION_COMPLETE.md
+ONBOARDING_WIDGET_LEVEL_IMPLEMENTATION.md
+ONESIGNAL_IMPLEMENTATION.md
+ONESIGNAL_IMPLEMENTATION_SUMMARY.md
+ONESIGNAL_QUICK_REFERENCE.md
+ONESIGNAL_SETUP_GUIDE.md
+OPEN_SOURCE_PREPARATION.md
+PLAYBACK_BLINK_FIX.md
+PLAYBACK_TROUBLESHOOTING.md
+RECORDING_LIBRARY_MIGRATION.md
+SCROLL_AND_REJECTION_COMPLETE.md
+SCROLL_AND_REJECTION_IMPROVEMENTS.md
+SECURITY_IMPLEMENTATION.md
+SUBMIT_BUTTON_FIX.md
+TASK_EARNING_AND_INSTRUCTION_FLOW.md
+TASK_INSTRUCTION_LIFECYCLE_FIX.md
+TASK_INSTRUCTION_REDESIGN.md
+TASK_SUBMISSION_ONBOARDING.md
+TASK_SUBMISSION_REFACTOR.md
+TEXT_INPUT_VALIDATION_FEATURE.md
+TEXT_TO_SPEECH_PLAYBACK_FIX.md
+TEXT_TO_SPEECH_UX_IMPROVEMENTS.md
+TIKTOK_STYLE_NAVIGATION.md
+UNIVERSAL_FLOATING_NAVIGATION.md
+WIDGET_LEVEL_ONBOARDING_COMPLETE.md
