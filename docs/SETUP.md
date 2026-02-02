@@ -1,5 +1,30 @@
 # Setup Guide
 
+## Quick Start Options
+
+### Option 1: Try the Sample APK (Fastest - No Setup Required)
+
+If you just want to try the app without setting up the development environment:
+
+1. **Download the APK**
+   - Navigate to the [`sample-apk`](../sample-apk/) folder in the repository
+   - Download `Leyu.apk`
+
+2. **Install on Android Device**
+   ```bash
+   # Using ADB (if device is connected)
+   adb install sample-apk/Leyu.apk
+   ```
+
+   Or manually:
+   - Transfer the APK to your Android device
+   - Enable "Install from Unknown Sources" in device settings
+   - Open the APK file and install
+
+3. **Launch the app** and start exploring!
+
+### Option 2: Build from Source (For Development)
+
 ## Quick Setup (5 minutes)
 
 ### Prerequisites

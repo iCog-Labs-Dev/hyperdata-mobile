@@ -21,6 +21,17 @@
 
 Leyu Mobile is a Flutter-based mobile application designed for dataset contributors. The app enables users to contribute to various data collection tasks including speech-to-text, text-to-speech, and text-to-text tasks, helping build high-quality datasets for machine learning and AI applications.
 
+### Screenshots
+
+<div align="center">
+  <img src="assets/screenshots/home_page.png" alt="Home Page" width="300"/>
+  <img src="assets/screenshots/task_detail_page.png" alt="Task Detail Page" width="300"/>
+</div>
+
+### Try the App
+
+Want to try the app without building from source? Download the sample APK from the [`sample-apk`](sample-apk/) folder and install it on your Android device.
+
 ### Key Highlights
 
 - 🎯 **Task Management**: Browse, accept, and complete various data collection tasks
@@ -65,7 +76,20 @@ Leyu Mobile is a Flutter-based mobile application designed for dataset contribut
 - **Android Studio** or **Xcode** (for iOS development)
 - **Git**: For version control
 
-### Installation
+### Quick Start Options
+
+#### Option 1: Try the Sample APK (No Setup Required)
+
+Download and install the pre-built APK from the [`sample-apk`](sample-apk/) folder:
+
+```bash
+# Install on connected Android device
+adb install sample-apk/Leyu.apk
+```
+
+Or manually transfer the APK to your Android device and install it.
+
+#### Option 2: Build from Source
 
 1. **Clone the repository**
 
