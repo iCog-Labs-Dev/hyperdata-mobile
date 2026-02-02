@@ -7,17 +7,17 @@
 If you just want to try the app without setting up the development environment:
 
 1. **Download the APK**
-   - Navigate to the [`sample-apk`](../sample-apk/) folder in the repository
-   - Download `Leyu.apk`
+   - [Download from Google Drive](https://drive.google.com/file/d/1J5MpNZ8nHMTEUPa8jrt4vn04F4Nfppao/view?usp=drive_link)
+   - Save `Leyu.apk` to your computer
 
 2. **Install on Android Device**
    ```bash
    # Using ADB (if device is connected)
-   adb install sample-apk/Leyu.apk
+   adb install Leyu.apk
    ```
 
    Or manually:
-   - Transfer the APK to your Android device
+   - Transfer the downloaded APK to your Android device
    - Enable "Install from Unknown Sources" in device settings
    - Open the APK file and install
 

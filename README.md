@@ -30,7 +30,7 @@ Leyu Mobile is a Flutter-based mobile application designed for dataset contribut
 
 ### Try the App
 
-Want to try the app without building from source? Download the sample APK from the [`sample-apk`](sample-apk/) folder and install it on your Android device.
+Want to try the app without building from source? [Download the sample APK from Google Drive](https://drive.google.com/file/d/1J5MpNZ8nHMTEUPa8jrt4vn04F4Nfppao/view?usp=drive_link) and install it on your Android device.
 
 ### Key Highlights
 
@@ -80,14 +80,14 @@ Want to try the app without building from source? Download the sample APK from t
 
 #### Option 1: Try the Sample APK (No Setup Required)
 
-Download and install the pre-built APK from the [`sample-apk`](sample-apk/) folder:
+[Download the pre-built APK from Google Drive](https://drive.google.com/file/d/1J5MpNZ8nHMTEUPa8jrt4vn04F4Nfppao/view?usp=drive_link) and install it on your Android device:
 
 ```bash
-# Install on connected Android device
-adb install sample-apk/Leyu.apk
+# Install on connected Android device (after downloading)
+adb install Leyu.apk
 ```
 
-Or manually transfer the APK to your Android device and install it.
+Or manually transfer the downloaded APK to your Android device and install it.
 
 #### Option 2: Build from Source
 
