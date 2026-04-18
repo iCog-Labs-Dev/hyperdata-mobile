@@ -1,40 +1,32 @@
 import java.util.Properties
 import java.io.FileInputStream
+import java.io.File
 
 plugins {
     id("com.android.application")
     id("kotlin-android")
-    // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
     id("dev.flutter.flutter-gradle-plugin")
 }
 
-// Load keystore properties
-val keystorePropertiesFile = rootProject.file("key.properties")
+// Load keystore properties safely
 val keystoreProperties = Properties()
-if (keystorePropertiesFile.exists()) {
-    keystoreProperties.load(FileInputStream(keystorePropertiesFile))
+val keystoreFile = rootProject.file("key.properties")
+
+if (keystoreFile.exists()) {
+    keystoreProperties.load(FileInputStream(keystoreFile))
 }
 
 // Load environment variables from .env file
-val envPropertiesFile = rootProject.file("../.env")
 val envProperties = Properties()
-if (envPropertiesFile.exists()) {
-    envProperties.load(FileInputStream(envPropertiesFile))
+val envFile = rootProject.file("../.env")
+
+if (envFile.exists()) {
+    envProperties.load(FileInputStream(envFile))
 }
 
 android {
     namespace = "ai.leyu.leyu_mobile"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
-
-    compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
-    }
-
-    kotlinOptions {
-        jvmTarget = JavaVersion.VERSION_11.toString()
-    }
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
@@ -53,22 +45,37 @@ android {
 
     signingConfigs {
         create("release") {
-            keyAlias = keystoreProperties["keyAlias"] as String
-            keyPassword = keystoreProperties["keyPassword"] as String
-            storeFile = file(keystoreProperties["storeFile"] as String)
-            storePassword = keystoreProperties["storePassword"] as String
+            if (keystoreFile.exists()) {
+                keyAlias = keystoreProperties["keyAlias"] as String
+                keyPassword = keystoreProperties["keyPassword"] as String
+                storeFile = file(keystoreProperties["storeFile"] as String)
+                storePassword = keystoreProperties["storePassword"] as String
+            } else {
+                // fallback to debug keystore (safe for contributors)
+                val debugKeystore = File(System.getProperty("user.home"), ".android/debug.keystore")
+                if (debugKeystore.exists()) {
+                    storeFile = debugKeystore
+                    storePassword = "android"
+                    keyAlias = "androiddebugkey"
+                    keyPassword = "android"
+                }
+            }
         }
     }
 
     buildTypes {
         release {
             signingConfig = signingConfigs.getByName("release")
+
+            // prevent blank screen issues
+            isMinifyEnabled = false
+            isShrinkResources = false
         }
     }
 
-    packagingOptions {
-        dex {
-            useLegacyPackaging = true
+    packaging {
+        resources {
+            excludes += "META-INF/*"
         }
     }
 }
