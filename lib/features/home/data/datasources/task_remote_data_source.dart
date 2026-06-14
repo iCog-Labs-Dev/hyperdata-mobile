@@ -1,6 +1,4 @@
-import 'dart:ffi';
 import 'dart:io';
-
 import 'package:dio/dio.dart';
 import 'package:get/get.dart' hide MultipartFile, FormData;
 import 'package:leyu_mobile/core/utils/message.dart';
