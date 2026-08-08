@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:leyu_mobile/core/widgets/language_changer.dart';
-import 'package:leyu_mobile/core/widgets/loading.dart';
-import 'package:leyu_mobile/core/widgets/refresher.dart';
-import 'package:leyu_mobile/features/home/data/models/task.dart';
-import 'package:leyu_mobile/features/home/presentation/controllers/home_controller.dart';
-import 'package:leyu_mobile/features/home/presentation/widgets/profile_picture_widget.dart';
-import 'package:leyu_mobile/features/home/presentation/widgets/wallet_widget.dart';
-import 'package:leyu_mobile/routes/app_routes.dart';
+import 'package:mahder_mobile/core/widgets/language_changer.dart';
+import 'package:mahder_mobile/core/widgets/loading.dart';
+import 'package:mahder_mobile/core/widgets/refresher.dart';
+import 'package:mahder_mobile/features/home/data/models/task.dart';
+import 'package:mahder_mobile/features/home/presentation/controllers/home_controller.dart';
+import 'package:mahder_mobile/features/home/presentation/widgets/profile_picture_widget.dart';
+import 'package:mahder_mobile/features/home/presentation/widgets/wallet_widget.dart';
+import 'package:mahder_mobile/routes/app_routes.dart';
 
 import '../../../../core/theme/app_colors.dart';
 import '../../../../core/utils/screen_size.dart';

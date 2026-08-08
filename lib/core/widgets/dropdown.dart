@@ -1,9 +1,9 @@
 import 'package:dropdown_button2/dropdown_button2.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:leyu_mobile/core/theme/app_colors.dart';
-import 'package:leyu_mobile/core/widgets/image.dart';
-import 'package:leyu_mobile/core/widgets/loading.dart';
+import 'package:mahder_mobile/core/theme/app_colors.dart';
+import 'package:mahder_mobile/core/widgets/image.dart';
+import 'package:mahder_mobile/core/widgets/loading.dart';
 
 class DropdownWidget extends StatelessWidget {
   final String label;

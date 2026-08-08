@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:leyu_mobile/core/theme/app_colors.dart';
-import 'package:leyu_mobile/core/widgets/loading.dart';
-import 'package:leyu_mobile/features/auth/presentation/widgets/register_terms_conditions_widget.dart';
-import 'package:leyu_mobile/features/auth/presentation/widgets/register_user_info_widget.dart';
+import 'package:mahder_mobile/core/theme/app_colors.dart';
+import 'package:mahder_mobile/core/widgets/loading.dart';
+import 'package:mahder_mobile/features/auth/presentation/widgets/register_terms_conditions_widget.dart';
+import 'package:mahder_mobile/features/auth/presentation/widgets/register_user_info_widget.dart';
 import '../controllers/auth_controller.dart';
 import '../widgets/register_additional_info.dart';
 import '../widgets/register_password_widget.dart';

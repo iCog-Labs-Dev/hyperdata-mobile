@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:leyu_mobile/core/widgets/button.dart';
-import 'package:leyu_mobile/features/home/presentation/widgets/audio_player_widget.dart';
+import 'package:mahder_mobile/core/widgets/button.dart';
+import 'package:mahder_mobile/features/home/presentation/widgets/audio_player_widget.dart';
 import 'package:video_player/video_player.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:url_launcher/url_launcher.dart';

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:leyu_mobile/core/widgets/image.dart';
+import 'package:mahder_mobile/core/widgets/image.dart';
 
 import '../theme/app_colors.dart';
 

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:leyu_mobile/core/utils/screen_size.dart';
-import 'package:leyu_mobile/core/widgets/loading.dart';
+import 'package:mahder_mobile/core/utils/screen_size.dart';
+import 'package:mahder_mobile/core/widgets/loading.dart';
 
 class TableWidget extends StatelessWidget {
   final List<String> headers;

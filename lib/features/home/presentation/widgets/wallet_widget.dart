@@ -2,10 +2,10 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:leyu_mobile/core/widgets/button.dart';
-import 'package:leyu_mobile/core/widgets/image.dart';
-import 'package:leyu_mobile/core/widgets/loading.dart';
-import 'package:leyu_mobile/features/home/presentation/controllers/home_controller.dart';
+import 'package:mahder_mobile/core/widgets/button.dart';
+import 'package:mahder_mobile/core/widgets/image.dart';
+import 'package:mahder_mobile/core/widgets/loading.dart';
+import 'package:mahder_mobile/features/home/presentation/controllers/home_controller.dart';
 
 class WalletWidget extends StatelessWidget {
   WalletWidget({super.key});

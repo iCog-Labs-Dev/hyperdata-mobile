@@ -1,18 +1,18 @@
 import 'package:get/get.dart';
-import 'package:leyu_mobile/features/auth/presentation/pages/activate_account_page.dart';
-import 'package:leyu_mobile/features/auth/presentation/pages/introduction_page.dart';
-import 'package:leyu_mobile/features/auth/presentation/pages/register_page.dart';
-import 'package:leyu_mobile/features/auth/presentation/pages/register_profile_page.dart';
-import 'package:leyu_mobile/features/home/presentation/bindings/home_binding.dart';
-import 'package:leyu_mobile/features/home/presentation/pages/task_instruction_page.dart';
-import 'package:leyu_mobile/features/home/presentation/pages/task_submission_page.dart';
-import 'package:leyu_mobile/features/profile/presentation/bindings/profile_binding.dart';
-import 'package:leyu_mobile/features/profile/presentation/pages/main_profile_screen.dart';
-import 'package:leyu_mobile/features/profile/presentation/pages/edit_profile_page.dart';
-import 'package:leyu_mobile/features/profile/presentation/pages/change_password_page.dart';
-import 'package:leyu_mobile/features/notification/presentation/bindings/notification_binding.dart';
-import 'package:leyu_mobile/features/notification/presentation/pages/notification_page.dart';
-import 'package:leyu_mobile/routes/app_routes.dart';
+import 'package:mahder_mobile/features/auth/presentation/pages/activate_account_page.dart';
+import 'package:mahder_mobile/features/auth/presentation/pages/introduction_page.dart';
+import 'package:mahder_mobile/features/auth/presentation/pages/register_page.dart';
+import 'package:mahder_mobile/features/auth/presentation/pages/register_profile_page.dart';
+import 'package:mahder_mobile/features/home/presentation/bindings/home_binding.dart';
+import 'package:mahder_mobile/features/home/presentation/pages/task_instruction_page.dart';
+import 'package:mahder_mobile/features/home/presentation/pages/task_submission_page.dart';
+import 'package:mahder_mobile/features/profile/presentation/bindings/profile_binding.dart';
+import 'package:mahder_mobile/features/profile/presentation/pages/main_profile_screen.dart';
+import 'package:mahder_mobile/features/profile/presentation/pages/edit_profile_page.dart';
+import 'package:mahder_mobile/features/profile/presentation/pages/change_password_page.dart';
+import 'package:mahder_mobile/features/notification/presentation/bindings/notification_binding.dart';
+import 'package:mahder_mobile/features/notification/presentation/pages/notification_page.dart';
+import 'package:mahder_mobile/routes/app_routes.dart';
 import '../features/auth/presentation/bindings/auth_binding.dart';
 import '../features/auth/presentation/pages/forgot_password_page.dart';
 import '../features/auth/presentation/pages/login_page.dart';
@@ -102,3 +102,4 @@ class AppPages {
     ),
   ];
 }
+

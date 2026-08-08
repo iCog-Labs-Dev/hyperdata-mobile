@@ -1,10 +1,10 @@
-# Leyu Mobile
+# Mahder Mobile
 
 <div align="center">
 
-![Leyu Logo](assets/images/logo.png)
+![Mahder Logo](assets/images/logo.png)
 
-**A mobile application for dataset contributors of Leyu**
+**A mobile application for dataset contributors of Mahder**
 
 [![Flutter](https://img.shields.io/badge/Flutter-3.5.0-02569B?logo=flutter)](https://flutter.dev)
 [![Dart](https://img.shields.io/badge/Dart-3.5.0-0175C2?logo=dart)](https://dart.dev)
@@ -19,7 +19,7 @@
 
 ## 📱 About
 
-Leyu Mobile is a Flutter-based mobile application designed for dataset contributors. The app enables users to contribute to various data collection tasks including speech-to-text, text-to-speech, and text-to-text tasks, helping build high-quality datasets for machine learning and AI applications.
+Mahder Mobile is a Flutter-based mobile application designed for dataset contributors. The app enables users to contribute to various data collection tasks including speech-to-text, text-to-speech, and text-to-text tasks, helping build high-quality datasets for machine learning and AI applications.
 
 ### Screenshots
 
@@ -84,7 +84,7 @@ Want to try the app without building from source? [Download the sample APK from 
 
 ```bash
 # Install on connected Android device (after downloading)
-adb install Leyu.apk
+adb install Mahder.apk
 ```
 
 Or manually transfer the downloaded APK to your Android device and install it.
@@ -94,8 +94,8 @@ Or manually transfer the downloaded APK to your Android device and install it.
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/leyu_mobile.git
-   cd leyu_mobile
+   git clone https://github.com/yourusername/mahder_mobile.git
+   cd mahder_mobile
    ```
 
 2. **Install dependencies**
@@ -225,7 +225,7 @@ To add a new language:
 - **Input Validation**: All user inputs validated before processing
 - **HTTPS Only**: All API calls over HTTPS
 
-For security concerns, please email security@leyu.ai or open a private security advisory on GitHub.
+For security concerns, please email security@mahder.ai or open a private security advisory on GitHub.
 
 ## 🧪 Testing
 
@@ -267,7 +267,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Team
 
-- **Development Team**: Leyu Development Team
+- **Development Team**: mahder Development Team
 - **Contributors**: See [CONTRIBUTORS.md](CONTRIBUTORS.md)
 
 ## 🙏 Acknowledgments
@@ -280,8 +280,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 - **Documentation**: Check the [docs](#documentation) section
-- **Issues**: [GitHub Issues](https://github.com/yourusername/leyu_mobile/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/leyu_mobile/discussions)
+- **Issues**: [GitHub Issues](https://github.com/yourusername/mahder_mobile/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/yourusername/mahder_mobile/discussions)
 
 ## 🗺️ Roadmap
 
@@ -304,6 +304,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-[⬆ Back to Top](#leyu-mobile)
+[⬆ Back to Top](#mahder-mobile)
 
 </div>

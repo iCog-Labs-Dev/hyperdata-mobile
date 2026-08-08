@@ -1,8 +1,8 @@
 import 'dart:ui';
 import 'package:get/get.dart';
-import 'package:leyu_mobile/core/cache/cache_keys.dart';
-import 'package:leyu_mobile/core/cache/cache_manager.dart';
-import 'package:leyu_mobile/core/localization/models/locale_model.dart';
+import 'package:mahder_mobile/core/cache/cache_keys.dart';
+import 'package:mahder_mobile/core/cache/cache_manager.dart';
+import 'package:mahder_mobile/core/localization/models/locale_model.dart';
 
 /// Controller for managing app localization and language preferences
 class LocalizationController extends GetxController {

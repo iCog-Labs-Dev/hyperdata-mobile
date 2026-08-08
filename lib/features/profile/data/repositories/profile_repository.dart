@@ -1,6 +1,6 @@
 import 'package:dartz/dartz.dart';
-import 'package:leyu_mobile/core/errors/failure.dart';
-import 'package:leyu_mobile/features/auth/data/models/user.dart';
+import 'package:mahder_mobile/core/errors/failure.dart';
+import 'package:mahder_mobile/features/auth/data/models/user.dart';
 import '../datasources/profile_remote_data_source.dart';
 
 abstract class ProfileRepository {

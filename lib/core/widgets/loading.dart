@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:loading_animation_widget/loading_animation_widget.dart';
-import 'package:leyu_mobile/core/theme/app_colors.dart';
+import 'package:mahder_mobile/core/theme/app_colors.dart';
 
 import '../utils/screen_size.dart';
 

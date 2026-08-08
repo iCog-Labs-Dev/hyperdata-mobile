@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
-import 'package:leyu_mobile/core/errors/failure.dart';
-import 'package:leyu_mobile/features/notification/data/datasources/notification_remote_data_source.dart';
-import 'package:leyu_mobile/features/notification/data/models/notification_response_model.dart';
+import 'package:mahder_mobile/core/errors/failure.dart';
+import 'package:mahder_mobile/features/notification/data/datasources/notification_remote_data_source.dart';
+import 'package:mahder_mobile/features/notification/data/models/notification_response_model.dart';
 
 class NotificationRepository {
   final NotificationRemoteDataSource _remoteDataSource;

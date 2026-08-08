@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:leyu_mobile/core/theme/app_colors.dart';
-import 'package:leyu_mobile/core/widgets/loading.dart';
+import 'package:mahder_mobile/core/theme/app_colors.dart';
+import 'package:mahder_mobile/core/widgets/loading.dart';
 import 'package:pull_to_refresh_new/pull_to_refresh.dart';
 import '../controllers/notification_controller.dart';
 import '../widgets/notification_date_section_widget.dart';

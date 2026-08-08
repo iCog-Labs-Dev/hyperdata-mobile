@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:leyu_mobile/core/theme/app_colors.dart';
-import 'package:leyu_mobile/core/utils/screen_size.dart';
-import 'package:leyu_mobile/core/widgets/image.dart';
-import 'package:leyu_mobile/core/widgets/loading.dart';
-import 'package:leyu_mobile/core/widgets/language_selection_dialog.dart';
+import 'package:mahder_mobile/core/theme/app_colors.dart';
+import 'package:mahder_mobile/core/utils/screen_size.dart';
+import 'package:mahder_mobile/core/widgets/image.dart';
+import 'package:mahder_mobile/core/widgets/loading.dart';
+import 'package:mahder_mobile/core/widgets/language_selection_dialog.dart';
 import '../controllers/profile_controller.dart';
 
 class ProfileMainWidget extends StatelessWidget {

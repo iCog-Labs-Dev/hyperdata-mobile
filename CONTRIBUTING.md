@@ -1,6 +1,6 @@
-# Contributing to Leyu Mobile
+# Contributing to Mahder Mobile
 
-First off, thank you for considering contributing to Leyu Mobile! It's people like you that make Leyu Mobile such a great tool.
+First off, thank you for considering contributing to Mahder Mobile! It's people like you that make Mahder Mobile such a great tool.
 
 ## Table of Contents
 
@@ -36,12 +36,12 @@ Before you begin, ensure you have the following installed:
 1. **Fork the repository** on GitHub
 2. **Clone your fork** locally:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/leyu_mobile.git
-   cd leyu_mobile
+   git clone https://github.com/YOUR_USERNAME/mahder_mobile.git
+   cd mahder_mobile
    ```
 3. **Add upstream remote**:
    ```bash
-   git remote add upstream https://github.com/ORIGINAL_OWNER/leyu_mobile.git
+   git remote add upstream https://github.com/ORIGINAL_OWNER/mahder_mobile.git
    ```
 
 ### Environment Setup
@@ -149,7 +149,7 @@ Unsure where to begin? Look for issues labeled:
 ### Project Structure
 
 ```
-leyu_mobile/
+mahder_mobile/
 ├── lib/
 │   ├── core/              # Core functionality
 │   │   ├── api/           # API client
@@ -646,8 +646,8 @@ Future<User> login({
 ## Questions?
 
 - Check existing [documentation](README.md#documentation)
-- Search [existing issues](https://github.com/leyu-opensource-platform/leyu-mobile/issues)
-- Ask in [discussions](https://github.com/leyu-opensource-platform/leyu-mobile/discussions)
+- Search [existing issues](https://github.com/mahder-opensource-platform/mahder-mobile/issues)
+- Ask in [discussions](https://github.com/mahder-opensource-platform/mahder-mobile/discussions)
 - Contact maintainers
 
 ## Recognition
@@ -657,7 +657,7 @@ Contributors will be recognized in:
 - Release notes
 - Project README
 
-Thank you for contributing to Leyu Mobile! 🎉
+Thank you for contributing to Mahder Mobile! 🎉
 
 ---
 

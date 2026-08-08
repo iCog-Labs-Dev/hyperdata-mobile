@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
-import 'package:leyu_mobile/core/api/api_client.dart';
-import 'package:leyu_mobile/features/auth/data/models/user.dart';
+import 'package:mahder_mobile/core/api/api_client.dart';
+import 'package:mahder_mobile/features/auth/data/models/user.dart';
 
 class ProfileRemoteDataSource {
   final ApiClient _apiClient;

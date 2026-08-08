@@ -2,7 +2,7 @@
 
 ## Overview
 
-Leyu Mobile follows **Clean Architecture** principles with clear separation of concerns, making the codebase maintainable, testable, and scalable.
+Mahder Mobile follows **Clean Architecture** principles with clear separation of concerns, making the codebase maintainable, testable, and scalable.
 
 ## Architecture Layers
 

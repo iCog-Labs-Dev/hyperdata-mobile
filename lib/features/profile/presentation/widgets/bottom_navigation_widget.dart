@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:leyu_mobile/core/theme/app_colors.dart';
+import 'package:mahder_mobile/core/theme/app_colors.dart';
 
 class BottomNavigationWidget extends StatelessWidget {
   final int currentIndex;

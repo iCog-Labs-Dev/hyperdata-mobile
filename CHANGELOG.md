@@ -71,6 +71,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `Fixed` for any bug fixes
 - `Security` for vulnerability fixes
 
-[Unreleased]: https://github.com/yourusername/leyu_mobile/compare/v1.0.0+2...HEAD
-[1.0.0+2]: https://github.com/yourusername/leyu_mobile/compare/v1.0.0+1...v1.0.0+2
-[1.0.0+1]: https://github.com/yourusername/leyu_mobile/releases/tag/v1.0.0+1
+[Unreleased]: https://github.com/yourusername/mahder_mobile/compare/v1.0.0+2...HEAD
+[1.0.0+2]: https://github.com/yourusername/mahder_mobile/compare/v1.0.0+1...v1.0.0+2
+[1.0.0+1]: https://github.com/yourusername/mahder_mobile/releases/tag/v1.0.0+1

@@ -4,7 +4,7 @@ import 'package:get/get_navigation/get_navigation.dart';
 import 'package:jwt_decode/jwt_decode.dart';
 import 'dart:async';
 
-import 'package:leyu_mobile/routes/app_routes.dart';
+import 'package:mahder_mobile/routes/app_routes.dart';
 
 import '../cache/local_storage.dart';
 import 'api_constants.dart';

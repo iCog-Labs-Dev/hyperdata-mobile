@@ -1,6 +1,6 @@
-import 'package:leyu_mobile/core/api/api_client.dart';
-import 'package:leyu_mobile/core/api/api_constants.dart';
-import 'package:leyu_mobile/features/notification/data/models/notification_response_model.dart';
+import 'package:mahder_mobile/core/api/api_client.dart';
+import 'package:mahder_mobile/core/api/api_constants.dart';
+import 'package:mahder_mobile/features/notification/data/models/notification_response_model.dart';
 
 class NotificationRemoteDataSource {
   final ApiClient _apiClient;

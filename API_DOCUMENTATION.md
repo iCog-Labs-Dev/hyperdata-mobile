@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document describes the API integration in Leyu Mobile app. The app communicates with a RESTful API for all backend operations.
+This document describes the API integration in Mahder Mobile app. The app communicates with a RESTful API for all backend operations.
 
 ## Base Configuration
 

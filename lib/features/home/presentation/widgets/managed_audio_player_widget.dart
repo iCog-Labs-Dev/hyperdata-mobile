@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:leyu_mobile/core/services/audio_manager_service.dart';
-import 'package:leyu_mobile/features/home/presentation/widgets/audio_player_widget.dart';
+import 'package:mahder_mobile/core/services/audio_manager_service.dart';
+import 'package:mahder_mobile/features/home/presentation/widgets/audio_player_widget.dart';
 
 /// Wrapper for AudioPlayerWidget that manages audio lifecycle based on page visibility
 class ManagedAudioPlayerWidget extends StatefulWidget {

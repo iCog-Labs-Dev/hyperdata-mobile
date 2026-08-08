@@ -1,7 +1,7 @@
 
 import 'package:dartz/dartz.dart';
-import 'package:leyu_mobile/features/auth/data/models/new_user.dart';
-import 'package:leyu_mobile/features/auth/data/models/verification_response.dart';
+import 'package:mahder_mobile/features/auth/data/models/new_user.dart';
+import 'package:mahder_mobile/features/auth/data/models/verification_response.dart';
 
 import '../../../../../core/errors/failure.dart';
 import '../../data/datasources/auth_remote_data_source.dart';

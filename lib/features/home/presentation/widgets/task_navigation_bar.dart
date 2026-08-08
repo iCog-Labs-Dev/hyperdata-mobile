@@ -1,6 +1,6 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
-import 'package:leyu_mobile/core/theme/app_colors.dart';
+import 'package:mahder_mobile/core/theme/app_colors.dart';
 
 /// TikTok-style floating navigation buttons for task micro-task navigation
 /// Displays as vertical floating buttons on the right side

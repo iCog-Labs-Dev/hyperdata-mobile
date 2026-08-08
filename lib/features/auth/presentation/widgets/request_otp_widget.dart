@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:leyu_mobile/core/theme/app_colors.dart';
-import 'package:leyu_mobile/routes/app_routes.dart';
+import 'package:mahder_mobile/core/theme/app_colors.dart';
+import 'package:mahder_mobile/routes/app_routes.dart';
 
 import '../../../../../core/utils/screen_size.dart';
 import '../../../../../core/widgets/button.dart';

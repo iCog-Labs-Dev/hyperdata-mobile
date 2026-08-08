@@ -1,7 +1,7 @@
-import 'package:leyu_mobile/core/utils/message.dart';
-import 'package:leyu_mobile/features/notification/data/models/notification_response_model.dart';
-import 'package:leyu_mobile/features/notification/domain/entities/notification_entity.dart';
-import 'package:leyu_mobile/features/notification/domain/repositories/notification_repository.dart';
+import 'package:mahder_mobile/core/utils/message.dart';
+import 'package:mahder_mobile/features/notification/data/models/notification_response_model.dart';
+import 'package:mahder_mobile/features/notification/domain/entities/notification_entity.dart';
+import 'package:mahder_mobile/features/notification/domain/repositories/notification_repository.dart';
 
 class NotificationUsecase {
   final NotificationRepository _repository;

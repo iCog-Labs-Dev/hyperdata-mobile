@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:leyu_mobile/features/notification/data/models/notification_model.dart';
-import 'package:leyu_mobile/features/notification/domain/entities/notification_entity.dart';
-import 'package:leyu_mobile/features/notification/domain/usecases/notification_usecase.dart';
+import 'package:mahder_mobile/features/notification/data/models/notification_model.dart';
+import 'package:mahder_mobile/features/notification/domain/entities/notification_entity.dart';
+import 'package:mahder_mobile/features/notification/domain/usecases/notification_usecase.dart';
 
 void main() {
   group('Notification Date Formatting and Grouping', () {

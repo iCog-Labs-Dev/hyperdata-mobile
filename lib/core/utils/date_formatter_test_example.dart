@@ -2,7 +2,7 @@
 // This file demonstrates how to use the formatting functions
 // and can be used for manual testing
 
-import 'package:leyu_mobile/core/utils/date_formatter.dart';
+import 'package:mahder_mobile/core/utils/date_formatter.dart';
 
 void testDateFormatting() {
   final now = DateTime.now();

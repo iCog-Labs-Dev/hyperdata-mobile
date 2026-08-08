@@ -1,9 +1,9 @@
 import 'package:get/get.dart';
-import 'package:leyu_mobile/core/api/api_client.dart';
-import 'package:leyu_mobile/features/auth/data/datasources/base_data_remote_data_source.dart';
-import 'package:leyu_mobile/features/auth/domain/repositories/base_data_repository.dart';
-import 'package:leyu_mobile/features/auth/domain/usecases/base_data_usecase.dart';
-import 'package:leyu_mobile/core/cache/local_storage.dart';
+import 'package:mahder_mobile/core/api/api_client.dart';
+import 'package:mahder_mobile/features/auth/data/datasources/base_data_remote_data_source.dart';
+import 'package:mahder_mobile/features/auth/domain/repositories/base_data_repository.dart';
+import 'package:mahder_mobile/features/auth/domain/usecases/base_data_usecase.dart';
+import 'package:mahder_mobile/core/cache/local_storage.dart';
 import '../../data/datasources/profile_remote_data_source.dart';
 import '../../data/repositories/profile_repository.dart';
 import '../../domain/usecases/profile_usecase.dart';
