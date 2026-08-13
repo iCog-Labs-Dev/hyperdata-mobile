@@ -3,12 +3,12 @@ import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:get/get.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:intl/date_symbol_data_local.dart';
-import 'package:leyu_mobile/core/services/audio_manager_service.dart';
-import 'package:leyu_mobile/core/services/onesignal_service.dart';
-import 'package:leyu_mobile/features/home/data/models/task_submission_model.dart';
-import 'package:leyu_mobile/features/home/data/services/file_storage_service.dart';
-import 'package:leyu_mobile/features/home/data/services/task_storage_service.dart';
-import 'package:leyu_mobile/routes/app_pages.dart';
+import 'package:mahder_mobile/core/services/audio_manager_service.dart';
+import 'package:mahder_mobile/core/services/onesignal_service.dart';
+import 'package:mahder_mobile/features/home/data/models/task_submission_model.dart';
+import 'package:mahder_mobile/features/home/data/services/file_storage_service.dart';
+import 'package:mahder_mobile/features/home/data/services/task_storage_service.dart';
+import 'package:mahder_mobile/routes/app_pages.dart';
 import 'core/cache/cache_manager.dart';
 import 'core/localization/app_translations.dart';
 import 'core/localization/localization_controller.dart';
@@ -94,7 +94,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      title: 'Leyu',
+      title: 'Mahder',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(fontFamily: 'openSans', useMaterial3: false),
       // Localization configuration

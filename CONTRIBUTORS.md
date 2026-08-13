@@ -1,10 +1,10 @@
 # Contributors
 
-Thank you to all the people who have contributed to Leyu Mobile!
+Thank you to all the people who have contributed to Mahder Mobile!
 
 ## Core Team
 
-- **Leyu Development Team** - Initial work and ongoing maintenance
+- **Mahder Development Team** - Initial work and ongoing maintenance
 
 ## Contributors
 

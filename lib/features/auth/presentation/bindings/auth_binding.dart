@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
-import 'package:leyu_mobile/features/auth/data/datasources/base_data_remote_data_source.dart';
-import 'package:leyu_mobile/features/auth/domain/repositories/base_data_repository.dart';
+import 'package:mahder_mobile/features/auth/data/datasources/base_data_remote_data_source.dart';
+import 'package:mahder_mobile/features/auth/domain/repositories/base_data_repository.dart';
 
 import '../../../../../core/api/api_client.dart';
 import '../../../../../core/cache/local_storage.dart';

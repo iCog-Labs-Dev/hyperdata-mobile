@@ -1,5 +1,5 @@
-import 'package:leyu_mobile/core/utils/date_formatter.dart';
-import 'package:leyu_mobile/features/notification/data/models/notification_model.dart';
+import 'package:mahder_mobile/core/utils/date_formatter.dart';
+import 'package:mahder_mobile/features/notification/data/models/notification_model.dart';
 
 class NotificationEntity {
   final String id;

@@ -1,11 +1,11 @@
 import 'dart:async';
 
 import 'package:get/get.dart';
-import 'package:leyu_mobile/core/utils/message.dart';
-import 'package:leyu_mobile/features/auth/data/models/new_user.dart';
-import 'package:leyu_mobile/features/auth/domain/entities/dialect_entity.dart';
-import 'package:leyu_mobile/features/auth/domain/entities/language_entity.dart';
-import 'package:leyu_mobile/features/auth/domain/usecases/base_data_usecase.dart';
+import 'package:mahder_mobile/core/utils/message.dart';
+import 'package:mahder_mobile/features/auth/data/models/new_user.dart';
+import 'package:mahder_mobile/features/auth/domain/entities/dialect_entity.dart';
+import 'package:mahder_mobile/features/auth/domain/entities/language_entity.dart';
+import 'package:mahder_mobile/features/auth/domain/usecases/base_data_usecase.dart';
 import '../../../../../routes/app_routes.dart';
 import '../../domain/usecases/auth_usecase.dart';
 

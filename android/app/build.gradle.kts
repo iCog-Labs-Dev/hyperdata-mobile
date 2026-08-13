@@ -23,7 +23,7 @@ if (envPropertiesFile.exists()) {
 }
 
 android {
-    namespace = "ai.leyu.leyu_mobile"
+    namespace = "ai.mahder.mahder_mobile"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -38,7 +38,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "ai.leyu.leyu_mobile"
+        applicationId = "ai.mahder.mahder_mobile"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion

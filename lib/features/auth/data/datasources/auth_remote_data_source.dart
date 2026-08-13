@@ -2,8 +2,8 @@ import 'dart:convert';
 import 'package:dio/dio.dart';
 import 'package:get/get.dart';
 import 'package:get/get_common/get_reset.dart';
-import 'package:leyu_mobile/core/utils/message.dart';
-import 'package:leyu_mobile/features/auth/data/models/new_user.dart';
+import 'package:mahder_mobile/core/utils/message.dart';
+import 'package:mahder_mobile/features/auth/data/models/new_user.dart';
 
 import '../../../../../core/api/api_client.dart';
 import '../models/login_response.dart';

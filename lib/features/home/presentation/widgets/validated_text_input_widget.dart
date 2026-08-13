@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:leyu_mobile/core/theme/app_colors.dart';
+import 'package:mahder_mobile/core/theme/app_colors.dart';
 
 class ValidatedTextInputWidget extends StatefulWidget {
   final String label;

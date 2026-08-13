@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:leyu_mobile/core/theme/app_colors.dart';
-import 'package:leyu_mobile/features/notification/domain/entities/notification_entity.dart';
+import 'package:mahder_mobile/core/theme/app_colors.dart';
+import 'package:mahder_mobile/features/notification/domain/entities/notification_entity.dart';
 
 class NotificationItemWidget extends StatelessWidget {
   final NotificationEntity notification;

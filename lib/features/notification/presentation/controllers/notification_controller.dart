@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
-import 'package:leyu_mobile/core/utils/message.dart';
-import 'package:leyu_mobile/features/notification/domain/entities/notification_entity.dart';
-import 'package:leyu_mobile/features/notification/domain/usecases/notification_usecase.dart';
+import 'package:mahder_mobile/core/utils/message.dart';
+import 'package:mahder_mobile/features/notification/domain/entities/notification_entity.dart';
+import 'package:mahder_mobile/features/notification/domain/usecases/notification_usecase.dart';
 
 class NotificationController extends GetxController {
   final NotificationUsecase _usecase;

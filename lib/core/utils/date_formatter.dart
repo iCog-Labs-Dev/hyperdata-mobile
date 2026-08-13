@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
-import 'package:leyu_mobile/core/localization/localization_controller.dart';
+import 'package:mahder_mobile/core/localization/localization_controller.dart';
 
 /// Gets the current locale string for formatting
 String _getLocaleString() {

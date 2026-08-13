@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:leyu_mobile/core/theme/app_colors.dart';
+import 'package:mahder_mobile/core/theme/app_colors.dart';
 
 class ProfilePictureWidget extends StatelessWidget {
   final String? profilePictureUrl;

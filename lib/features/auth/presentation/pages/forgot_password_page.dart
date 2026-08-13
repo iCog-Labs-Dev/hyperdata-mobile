@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:leyu_mobile/core/theme/app_colors.dart';
-import 'package:leyu_mobile/core/utils/message.dart';
-import 'package:leyu_mobile/core/widgets/loading.dart';
+import 'package:mahder_mobile/core/theme/app_colors.dart';
+import 'package:mahder_mobile/core/utils/message.dart';
+import 'package:mahder_mobile/core/widgets/loading.dart';
 import '../../../../../core/utils/screen_size.dart';
 import '../controllers/auth_controller.dart';
 import '../widgets/logo_widget.dart';

@@ -1,6 +1,6 @@
 import 'dart:io';
-import 'package:leyu_mobile/core/utils/message.dart';
-import 'package:leyu_mobile/core/utils/storage_logger.dart';
+import 'package:mahder_mobile/core/utils/message.dart';
+import 'package:mahder_mobile/core/utils/storage_logger.dart';
 
 /// Handles storage errors and provides user-facing error messages
 class StorageErrorHandler {

@@ -1,7 +1,7 @@
 /// Afan Oromo (Ethiopia) translations
 const Map<String, String> omET = {
   // ============ COMMON ============
-  'common.app_name': 'Leyu',
+  'common.app_name': 'Mahder',
   'common.ok': 'Tole',
   'common.cancel': 'Dhiisi',
   'common.save': 'Olkaa\'i',

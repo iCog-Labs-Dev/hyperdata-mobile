@@ -6,7 +6,7 @@ This document provides examples of how to use the locale-aware formatting functi
 
 ### Format Date
 ```dart
-import 'package:leyu_mobile/core/utils/date_formatter.dart';
+import 'package:mahder_mobile/core/utils/date_formatter.dart';
 
 final date = DateTime.now();
 final formatted = formatDate(date);
@@ -69,7 +69,7 @@ All formatting functions automatically use the current locale from `Localization
 ## Usage in Widgets
 
 ```dart
-import 'package:leyu_mobile/core/utils/date_formatter.dart';
+import 'package:mahder_mobile/core/utils/date_formatter.dart';
 
 class MyWidget extends StatelessWidget {
   final DateTime date;

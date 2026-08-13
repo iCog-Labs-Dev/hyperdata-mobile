@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:leyu_mobile/core/constants/screen_constants.dart';
-import 'package:leyu_mobile/core/services/audio_manager_service.dart';
-import 'package:leyu_mobile/core/theme/app_colors.dart';
-import 'package:leyu_mobile/core/utils/message.dart';
-import 'package:leyu_mobile/core/widgets/button.dart';
-import 'package:leyu_mobile/features/home/domain/entities/micro_task_entity.dart';
-import 'package:leyu_mobile/features/home/domain/entities/task_detail_entity.dart';
-import 'package:leyu_mobile/features/home/presentation/controllers/home_controller.dart';
-import 'package:leyu_mobile/features/home/presentation/widgets/managed_audio_player_widget.dart';
-import 'package:leyu_mobile/features/home/presentation/widgets/submission_widget.dart';
-import 'package:leyu_mobile/features/home/presentation/widgets/task_navigation_bar.dart';
-import 'package:leyu_mobile/features/home/presentation/widgets/validated_text_input_widget.dart';
-import 'package:leyu_mobile/core/utils/screen_size.dart';
-import 'package:leyu_mobile/features/home/domain/entities/micro_task_status_enum.dart';
+import 'package:mahder_mobile/core/constants/screen_constants.dart';
+import 'package:mahder_mobile/core/services/audio_manager_service.dart';
+import 'package:mahder_mobile/core/theme/app_colors.dart';
+import 'package:mahder_mobile/core/utils/message.dart';
+import 'package:mahder_mobile/core/widgets/button.dart';
+import 'package:mahder_mobile/features/home/domain/entities/micro_task_entity.dart';
+import 'package:mahder_mobile/features/home/domain/entities/task_detail_entity.dart';
+import 'package:mahder_mobile/features/home/presentation/controllers/home_controller.dart';
+import 'package:mahder_mobile/features/home/presentation/widgets/managed_audio_player_widget.dart';
+import 'package:mahder_mobile/features/home/presentation/widgets/submission_widget.dart';
+import 'package:mahder_mobile/features/home/presentation/widgets/task_navigation_bar.dart';
+import 'package:mahder_mobile/features/home/presentation/widgets/validated_text_input_widget.dart';
+import 'package:mahder_mobile/core/utils/screen_size.dart';
+import 'package:mahder_mobile/features/home/domain/entities/micro_task_status_enum.dart';
 
 class SpeechToTextWidget extends StatefulWidget {
   final GlobalKey? audioPlayerKey;

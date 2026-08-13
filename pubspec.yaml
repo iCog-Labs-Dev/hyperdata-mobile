@@ -1,5 +1,5 @@
-name: leyu_mobile
-description: "A mobile app for dataset contributors of Leyu"
+name: mahder_mobile
+description: "A mobile app for dataset contributors of Mahder"
 publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
 version: 1.0.0+2

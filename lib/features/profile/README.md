@@ -1,6 +1,6 @@
 # Profile Module
 
-This module provides a comprehensive profile management system for the Leyu Mobile app, following the same design patterns and form handling approaches used in the auth module.
+This module provides a comprehensive profile management system for the Mahder Mobile app, following the same design patterns and form handling approaches used in the auth module.
 
 ## Components
 

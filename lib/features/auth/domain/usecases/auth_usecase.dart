@@ -2,10 +2,10 @@ import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
 import 'package:get/get.dart';
 import 'package:jwt_decode/jwt_decode.dart';
-import 'package:leyu_mobile/core/errors/failure.dart';
-import 'package:leyu_mobile/core/services/onboarding_service.dart';
-import 'package:leyu_mobile/core/services/onesignal_service.dart';
-import 'package:leyu_mobile/core/utils/message.dart';
+import 'package:mahder_mobile/core/errors/failure.dart';
+import 'package:mahder_mobile/core/services/onboarding_service.dart';
+import 'package:mahder_mobile/core/services/onesignal_service.dart';
+import 'package:mahder_mobile/core/utils/message.dart';
 
 import '../../../../../core/cache/local_storage.dart';
 import '../../../../../routes/app_routes.dart';

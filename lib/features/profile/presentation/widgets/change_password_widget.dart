@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:leyu_mobile/core/utils/screen_size.dart';
-import 'package:leyu_mobile/core/widgets/button.dart';
-import 'package:leyu_mobile/core/widgets/input_box.dart';
+import 'package:mahder_mobile/core/utils/screen_size.dart';
+import 'package:mahder_mobile/core/widgets/button.dart';
+import 'package:mahder_mobile/core/widgets/input_box.dart';
 import '../controllers/profile_controller.dart';
 
 class ChangePasswordWidget extends StatefulWidget {

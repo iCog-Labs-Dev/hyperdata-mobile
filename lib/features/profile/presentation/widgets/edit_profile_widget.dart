@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:leyu_mobile/core/theme/app_colors.dart';
-import 'package:leyu_mobile/core/widgets/button.dart';
-import 'package:leyu_mobile/core/widgets/dropdown.dart';
-import 'package:leyu_mobile/core/widgets/input_box.dart';
-import 'package:leyu_mobile/core/widgets/date_picker.dart';
-import 'package:leyu_mobile/features/auth/domain/entities/dialect_entity.dart';
-import 'package:leyu_mobile/features/auth/domain/entities/language_entity.dart';
+import 'package:mahder_mobile/core/theme/app_colors.dart';
+import 'package:mahder_mobile/core/widgets/button.dart';
+import 'package:mahder_mobile/core/widgets/dropdown.dart';
+import 'package:mahder_mobile/core/widgets/input_box.dart';
+import 'package:mahder_mobile/core/widgets/date_picker.dart';
+import 'package:mahder_mobile/features/auth/domain/entities/dialect_entity.dart';
+import 'package:mahder_mobile/features/auth/domain/entities/language_entity.dart';
 import '../controllers/profile_controller.dart';
 
 class EditProfileWidget extends StatelessWidget {

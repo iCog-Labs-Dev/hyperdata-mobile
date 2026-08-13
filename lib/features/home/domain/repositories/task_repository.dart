@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:dartz/dartz.dart' hide Task;
-import 'package:leyu_mobile/features/home/data/models/task_detail.dart';
+import 'package:mahder_mobile/features/home/data/models/task_detail.dart';
 import '../../../../core/errors/failure.dart';
 import '../../data/datasources/task_remote_data_source.dart';
 import '../../data/models/task.dart';

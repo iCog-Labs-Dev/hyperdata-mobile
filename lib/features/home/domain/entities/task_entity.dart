@@ -1,5 +1,5 @@
-import 'package:leyu_mobile/features/home/domain/entities/task_status_enum.dart';
-import 'package:leyu_mobile/features/home/domain/entities/task_type_enum.dart';
+import 'package:mahder_mobile/features/home/domain/entities/task_status_enum.dart';
+import 'package:mahder_mobile/features/home/domain/entities/task_type_enum.dart';
 
 import '../../data/models/task.dart';
 

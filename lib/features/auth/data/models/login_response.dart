@@ -1,4 +1,4 @@
-import 'package:leyu_mobile/features/auth/data/models/user.dart';
+import 'package:mahder_mobile/features/auth/data/models/user.dart';
 
 class LoginResponse {
   final User user;

@@ -1,4 +1,4 @@
-import 'package:leyu_mobile/features/auth/data/models/dialect.dart';
+import 'package:mahder_mobile/features/auth/data/models/dialect.dart';
 
 import '../../data/models/language.dart';
 

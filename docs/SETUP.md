@@ -8,12 +8,12 @@ If you just want to try the app without setting up the development environment:
 
 1. **Download the APK**
    - [Download from Google Drive](https://drive.google.com/file/d/1J5MpNZ8nHMTEUPa8jrt4vn04F4Nfppao/view?usp=drive_link)
-   - Save `Leyu.apk` to your computer
+   - Save `Mahder.apk` to your computer
 
 2. **Install on Android Device**
    ```bash
    # Using ADB (if device is connected)
-   adb install Leyu.apk
+   adb install Mahder.apk
    ```
 
    Or manually:
@@ -38,8 +38,8 @@ If you just want to try the app without setting up the development environment:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/leyu_mobile.git
-   cd leyu_mobile
+   git clone https://github.com/yourusername/mahder_mobile.git
+   cd mahder_mobile
    ```
 
 2. **Install dependencies**

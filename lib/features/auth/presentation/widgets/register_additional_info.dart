@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:leyu_mobile/core/utils/message.dart';
-import 'package:leyu_mobile/features/auth/domain/entities/dialect_entity.dart';
-import 'package:leyu_mobile/features/auth/domain/entities/language_entity.dart';
+import 'package:mahder_mobile/core/utils/message.dart';
+import 'package:mahder_mobile/features/auth/domain/entities/dialect_entity.dart';
+import 'package:mahder_mobile/features/auth/domain/entities/language_entity.dart';
 
 import '../../../../core/utils/screen_size.dart';
 import '../../../../core/widgets/button.dart';

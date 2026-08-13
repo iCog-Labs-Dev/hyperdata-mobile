@@ -1,7 +1,7 @@
 /// English (United States) translations
 const Map<String, String> enUS = {
   // ============ COMMON ============
-  'common.app_name': 'Leyu',
+  'common.app_name': 'Mahder',
   'common.ok': 'OK',
   'common.cancel': 'Cancel',
   'common.save': 'Save',

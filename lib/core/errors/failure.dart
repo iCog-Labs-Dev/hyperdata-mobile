@@ -1,4 +1,4 @@
-import 'package:leyu_mobile/core/errors/exceptions.dart';
+import 'package:mahder_mobile/core/errors/exceptions.dart';
 
 abstract class Failure {
   final String message;

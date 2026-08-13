@@ -1,6 +1,6 @@
 {
-    "name": "leyu_mobile",
-    "short_name": "leyu_mobile",
+"name": "mahder_mobile",
+  "short_name": "mahder_mobile",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
