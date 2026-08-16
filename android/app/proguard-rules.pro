@@ -24,7 +24,7 @@
 -keep class * implements com.google.gson.JsonDeserializer
 
 # Keep data models
--keep class com.example.leyu_mobile.** { *; }
+-keep class com.example.mahder_mobile.** { *; }
 
 # Google Play Core - Ignore missing classes
 -dontwarn com.google.android.play.core.**

@@ -191,7 +191,7 @@ const Map<String, String> enUS = {
   'home.title': 'Home',
   'home.welcome': 'Welcome',
   'home.greeting': 'Hello @name,',
-  'home.welcome_message': 'Welcome to Leyu',
+  'home.welcome_message': 'Welcome to Mahder',
   'home.greeting_morning': 'Good Morning',
   'home.greeting_afternoon': 'Good Afternoon',
   'home.greeting_evening': 'Good Evening',
