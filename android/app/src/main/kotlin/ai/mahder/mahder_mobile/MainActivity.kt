@@ -1,4 +1,4 @@
-package ai.leyu.leyu_mobile
+package ai.mahder.mahder_mobile
 
 import io.flutter.embedding.android.FlutterActivity
 
