@@ -3,7 +3,7 @@ This file documents modifications made to the upstream project in compliance wit
 Section 4(b) of the Apache License, Version 2.0.
 
 ## Upstream
-- **Original project:** [leyu-data-collection-platform/leyu-mobile](https://github.com/leyu-data-collection-platform/leyu-mobile)
+- **Original project:** [leyu-mobile](https://github.com/dave-lab12/leyu-mobile)
 - **License:** MIT License
 - **Fork:** [iCog-Labs-Dev/hyperdata-mobile](https://github.com/iCog-Labs-Dev/hyperdata-mobile)
 
